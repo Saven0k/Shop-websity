@@ -9,136 +9,201 @@
     padding: 0;
     font-family: 'Lato';
 }
-.first-page {
-    width: 1600px;
-    height: 764px;
-    flex-shrink: 0; 
-    margin-bottom: 0;
-}
-.top-bar {
-    background-color: #222;
-    display: flex;
+
+.container {
+    max-width: 1600px;
 }
 
-.top-ico {
+.first-page {
     display: flex;
-    margin-left: 231px;
+    flex-direction: column;
+}
+
+.up-menu {
+    display: flex;
+    width: 1600px;
+    height: 75px;
+    flex-shrink: 0;
+    background-color: #222;
+}
+
+.ico {
+    width: 44px;
+    height: 38px;
+    flex-shrink: 0;
     margin-top: 18px;
-    margin-right: 41px;
     margin-bottom: 19px;
+    margin-left: 231px;
+    margin-right: 41px;
 }
 
 .lupa {
-    display: flex;
-    margin-left: 0;
+    width: 26.002px;
+    height: 26.792px;
+    flex-shrink: 0;
     margin-top: 28.21px;
-    margin-right: 859px;
     margin-bottom: 20px;
+    margin-right: 859px;
 }
 
 .menu {
-    display: flex;
-    margin-left: 0;
+    width: 158.996px;
+    height: 29px;
+    flex-shrink: 0;
     margin-top: 26px;
     margin-right: 240px;
     margin-bottom: 20px;
 }
 
-
-.bot-b {
+.main-menu {
+    display: flex;
     background-color: #F1E4E6;
-    display: grid;
-    grid-template-columns: 800.58px auto;
 }
 
-.men {
+.big-men {
     width: 800.58px;
     height: 764px;
     flex-shrink: 0;
-}
-.men-text {
-    display: flex;
+    margin-right: 63.42px;
 }
 
 .stick {
-    display: flex;
     width: 12px;
     height: 92px;
     flex-shrink: 0;
-    margin-left: 63.42px;
     margin-top: 289.9px;
-    margin-bottom: 382px;
+    margin-bottom: 382.1px;
     margin-right: 16px;
 }
 
-.big-men-text {
-    display: flex;
+.big-text {  
+    width: 337px;
+    height: 93px;
     margin-top: 290px;
     margin-right: 331px;
     margin-bottom: 381px;
 }
 
-
-
-
-.second-page {
-    background-color: #fff;
-    display: flex;
-    width: 1600px;
-    height: 2925px;
-}
-
-
-
-.b-photos {
-
-}
-
-.ph-women {
-
-}
-
-.img-for-women {
-
-}
-
-.ph-men {
-
-}
-.img-for-men {
-
-}
-
-.ph-kid {
-
-}
-
-.img-for-kid {
-
-}
-
-.ph-acc {
-
-}
-
-.img-for-acc {
-    width: 1140px;
-    height: 180px;
+.image {
+    width: 360px;
+    height: 260px;
     flex-shrink: 0;
+    z-index: 2;
+}   
+
+.three-up-photos {
+    display: flex;
+    gap: 30px;
+    margin-top: 65px;
+    margin-bottom: 30px;
+    margin-left: 230px;
+    margin-right: 230px;
 }
 
-.for{
-    color: #F16D7F;
+.one-d-photo {
+    display: flex;
+    margin-bottom: 96px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.third-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+
+.t-up-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;    
+    margin-bottom: 48px;
+}
+
+.fetured {
+    color: #222;
     font-family: Lato;
-    font-size: 24px;
+    font-size: 30px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
 }
 
-.text { 
-    color: #FFF;
-    text-align: center;
+.small-shop-text {
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 6px;   
+}
+
+.menu-photos {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 360px 360px 360px;
+    grid-template-rows:  587px 587px;
+    gap: 30px;
+}
+
+.peple {
+    width: 360px;
+    height: 420px;
+    flex-shrink: 0;
+}
+
+.name-cart {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.disc-cart {
+    margin-bottom: 16px;
+    margin-left: 16px;
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.cost {
+    margin-bottom: 26px;
+    margin-left: 16px;
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.buton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    align-items: center;
+    position: relative;
+}
+
+.br-bt {
+    color: #F26376;
     font-family: Lato;
     font-size: 16px;
     font-style: normal;
@@ -146,8 +211,12 @@
     line-height: normal;
 }
 
-.s-img {
-    width: 360px;
-    height: 260px;
-    flex-shrink: 0;
+.w {
+    position: relative;
+}
+.b-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
