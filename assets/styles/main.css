@@ -24,25 +24,24 @@
     height: 75px;
     flex-shrink: 0;
     background-color: #222;
+    justify-content: space-between;
 }
+
 
 .ico {
     width: 44px;
     height: 38px;
     flex-shrink: 0;
-    margin-top: 18px;
-    margin-bottom: 19px;
     margin-left: 231px;
     margin-right: 41px;
+    margin-top: 18px;
 }
 
 .lupa {
     width: 26.002px;
     height: 26.792px;
-    flex-shrink: 0;
-    margin-top: 28.21px;
-    margin-bottom: 20px;    
-    margin-right: 859px;
+    flex-shrink: 0;  
+    margin-top: 28px;
 }
     
 .menu {
@@ -89,7 +88,9 @@
     width: 360px;
     height: 260px;
     flex-shrink: 0;
-}   
+}
+
+
 .three-up-photos {
     display: flex;
     gap: 30px;
@@ -225,12 +226,12 @@
 
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
     .container {
-        max-width: 767px;
+        max-width: 769.572px;
     }
     .main-menu {
-        width: 769.572px;
+        width: 100%;
         height: 367.567px;
         flex-shrink: 0;
     }
@@ -239,7 +240,8 @@
         margin-left: 32px;
     }
     .lupa {
-        margin-right: 424px;
+        margin-top: 28px;
+        margin-bottom   : 19px;
     }
     .small-screen {
         display: none;
@@ -262,6 +264,7 @@
     }
     .right-main-text{
         width: 383.57px;
+        margin-right: 0px;
     }
     .stick {
         margin-top: 138px;
@@ -330,15 +333,14 @@
         height: 363px;
     }
     .menu {
+        display: flex;
         width: 32px;
         height: 23px;
         margin-top: 25px;
-        margin-bottom: 26px;
-        margin-right: 16px;
+
     }
     .lupa {
         margin-bottom: 19px;
-        margin-right: 200px;
     }
     .left-men {
         display: none;
